@@ -1,0 +1,9 @@
+.env
+extracted_images/
+extracted_pages_data.json
+
+qdrant_data/
+
+src/__pycache__/
+
+src/vector_db/__pycache__/

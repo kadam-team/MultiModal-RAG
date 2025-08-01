@@ -1,0 +1,18 @@
+# Required Python packages for the RAG application.
+
+qdrant-client
+langchain-qdrant
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+python-dotenv
+sentence-transformers
+pdfplumber
+PyMuPDF
+
+langchain 
+langchain-community
+pydantic
+pdfminer
+chromadb 
+qdrant_client
