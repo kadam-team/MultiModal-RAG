@@ -102,3 +102,9 @@ The RAG pipeline operates in a simple, elegant flow:
 * **PyMuPDF & pdfplumber:** Powerful libraries for advanced PDF parsing.
 * **Sentence-Transformers:** For generating high-quality embeddings.
 * **python-dotenv:** For managing environment variables securely.
+
+### 📖 Blog Post
+
+For a detailed write-up and explanation of this project, you can refer to the Medium blog post: [From Report to Reasoning: Building a RAG System with the IMF's WEO 2024](https://medium.com/@kadam.team/from-report-to-reasoning-building-a-rag-system-with-the-imfs-weo-2024-1c1a6bce0c29).
+
+
