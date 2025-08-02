@@ -51,8 +51,8 @@ The RAG pipeline operates in a simple, elegant flow:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/kadam-team/MultiModal-RAG.git](https://github.com/kadam-team/MultiModal-RAG.git)
-    cd rag-app
+    git clone https://github.com/kadam-team/MultiModal-RAG.git
+    cd MultiModal-RAG
     ```
 
 2.  **Create a Virtual Environment (Recommended):**
