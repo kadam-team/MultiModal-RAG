@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 <h1 align="center">
   <br>
-  <a href="https://github.com/your-username/rag-app"><img src="https://img.shields.io/badge/RAG-App-blue?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/kadam-team/MultiModal-RAG"><img src="https://img.shields.io/badge/RAG-App-blue?style=for-the-badge&logo=github"></a>
   <br>
   Context-Aware Document Q&A with RAG
   <br>
@@ -51,7 +51,7 @@ The RAG pipeline operates in a simple, elegant flow:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/rag-app.git](https://github.com/your-username/rag-app.git)
+    git clone [https://github.com/kadam-team/MultiModal-RAG.git](https://github.com/kadam-team/MultiModal-RAG.git)
     cd rag-app
     ```
 
@@ -69,18 +69,20 @@ The RAG pipeline operates in a simple, elegant flow:
 4.  **Configuration:**
     -   Create a `.env` file in the root directory.
     -   Add your `GROQ_API_KEY` from the Groq console.
+    -   Add your `HF_TOKEN` from the HuggingFace website.
     -   The `.env.example` file provides a template.
 
     ```ini
     # rag-app/.env
     GROQ_API_KEY="your_groq_api_key_here"
+    HF_TOKEN="your hugging_face token here"
     ```
 
 ### 🏃 How to Run
 
 1.  **Prepare your Document:**
     -   Place your PDF document in a folder named `docs` in the project root.
-    -   Ensure the `PDF_PATH` in `src/config.py` is set correctly. The default is `docs/v2 WEO Oct 2018.pdf`.
+    -   Ensure the `PDF_PATH` in `src/config.py` is set correctly. The default is `docs/v2 WEO Oct 2024.pdf`.
 
 2.  **Start the Application:**
     -   The first run will parse the PDF and ingest the data. Subsequent runs will be much faster as the ingestion step is skipped.
